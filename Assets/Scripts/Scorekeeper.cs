@@ -8,13 +8,13 @@ public class Scorekeeper : MonoBehaviour
 {
     [SerializeField] int score;
     [SerializeField] int points = 0;
-    [SerializeField] int SCORE_THRESHOLD = 4;
+    [SerializeField] int SCORE_THRESHOLD = 3;
     [SerializeField] Text scoreText;
     [SerializeField] Text levelText;
     [SerializeField] Text playerNameText;
     [SerializeField] int level;
     [SerializeField] GameObject balloon;
-    const float delayTime = 0.3f;
+    const float delayTime = 0.25f;
 
     // Start is called before the first frame update
     void Start()

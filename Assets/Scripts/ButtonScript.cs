@@ -12,6 +12,8 @@ public class ButtonScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if(playerNameInput!=null)
+            playerNameInput.text = PersistantData.Instance.GetName();
         pauseMode = GameObject.FindGameObjectsWithTag("ShowOnPause");
         resumeMode = GameObject.FindGameObjectsWithTag("ShowOnResume");
         foreach (GameObject g in pauseMode)

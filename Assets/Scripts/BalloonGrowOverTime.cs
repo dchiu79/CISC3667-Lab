@@ -41,6 +41,7 @@ public class BalloonGrowOverTime : MonoBehaviour
     //reload current level
     void ReloadLevel() 
     {
+        PersistantData.Instance.SetScore(0);
         int scene = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(scene, LoadSceneMode.Single);
     }
