@@ -279,8 +279,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -3.39}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_AnchoredPosition: {x: 0, y: -3.4887}
+  m_SizeDelta: {x: 1000, y: 868.7034}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &377816545
 MonoBehaviour:
@@ -668,7 +668,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 90
+    m_FontSize: 70
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -683,6 +683,12 @@ MonoBehaviour:
 
     Proceed to the next level when
     enough points are gained.
+
+    The balloons get larger over time and decreases
+    in point value each time it occurs.
+
+    After a certain size, the balloon pops
+    and causes the level to restart.
 
 '
 --- !u!222 &1735754036
@@ -753,7 +759,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 90
+    m_FontSize: 70
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -764,13 +770,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'The balloons get larger over time and decreases in point value each time
-    it occurs.
+  m_Text: 'Level 1: 3 balloons, more point opportunities
 
-    After a certain size, the balloon pops and causes the level to
-    restart.
+    Level 2: 2 balloons,
+    less point opportunities compared to previous level
 
-'
+    Level 3: 2 balloons,
+    same point opportunities as previous level, but more difficult to hit the balloons'
 --- !u!222 &2007108632
 CanvasRenderer:
   m_ObjectHideFlags: 0
