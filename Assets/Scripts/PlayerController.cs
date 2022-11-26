@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -20,5 +21,7 @@ public class PlayerController : MonoBehaviour
             position.x += 2.0f;
             Instantiate(pinFire, position, Quaternion.identity);
         }
+        if(gameObject.transform.position.y < -6.0f)
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
