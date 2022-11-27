@@ -279,7 +279,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -3.4887}
+  m_AnchoredPosition: {x: 5.27, y: -3.34}
   m_SizeDelta: {x: 1000, y: 868.7034}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &377816545
@@ -679,16 +679,19 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Destroy the balloons to gain points.
+  m_Text: 'Movement: WASD or arrow keys
 
-    Proceed to the next level when
-    enough points are gained.
+    CTRL: Throw pin object to the right
 
-    The balloons get larger over time and decreases
-    in point value each time it occurs.
+    Destroy
+    the balloons to gain points. Proceed to the next level when enough points are
+    gained.
 
-    After a certain size, the balloon pops
-    and causes the level to restart.
+    The balloons get larger over time and decreases in point value each
+    time it occurs.
+
+    After a certain size, the balloon pops and causes the level
+    to restart.
 
 '
 --- !u!222 &1735754036
